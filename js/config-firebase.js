@@ -224,10 +224,9 @@ $(document).ready(function() {
     event.preventDefault();
     if (validateEmail && validatePassword) {
       $('#start-js').attr('disabled', false);
-
       window.location.href = 'form-data.html';
     } else {
-      alert('You need register :( )');
+      alert('You need register :( ');
     }
   });
 });

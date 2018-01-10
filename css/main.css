@@ -348,3 +348,32 @@ h1 {
   font-size: 1.2em;
   font-weight: 600;
 }
+
+/*STYLES OF MAIN */
+
+.textarea-styles {
+  width: 100%;
+  outline: none;
+  word-wrap: break-word;
+  resize: none;
+  color:#A0002D;
+  font-weight: 600;
+}
+
+.commit--size {
+  background: #fff;
+  width: 100%;
+  height: auto;
+}
+
+.margin-15 {
+  margin: 15px;
+}
+
+.commit--styles{
+  color: #37474F;
+}
+
+.padding-10{
+  padding: 10px;
+}
