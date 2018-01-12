@@ -136,7 +136,13 @@ main {
     height: 100px;
 }
 
-
+/* secion de mensajes */
+.new-coment{
+  font-size: 2rem;
+  font-weight: bold;
+  border: rgb(163, 142, 157);
+  border-radius: 10%;
+}
 /* seccion de seguidos */
 
 .seguidos {

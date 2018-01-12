@@ -45,13 +45,13 @@ $('input[type=file]').change(function() {
 
 // ingreso de mensajes
 var newmsj = $('.msj-msj');
-var btnsmj =$('.msj0');
+var btnsmj =$('#msj0');
 
 button.on('click', function () {
   if (newmsj.val()) {
     // alert('Hola'); alert de comprobacion
 
-    $('.estadox').append('<div class=new-feel>' + 'Hoy me siento '+ msjIntro.val() + '</div>');
+    $('.estadox').append('<div class=new-coment>' + msjIntro.val() + '</div>');
 
     msjIntro.val('');
   };
