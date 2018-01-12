@@ -7,6 +7,24 @@ $(document).ready(function() {
 
   var startCommit = $('.start-commit-js');
   startCommit.on('click', function() {
-    window.location.href = 'main.html';;
+    window.location.href = 'main.html';
+
   });
+  var search = $('.search-js');
+  console.log(search)
+  search.on('click', function(){
+    window.location.href = 'assistance.html';
+  });
+  
+  var friends = $('.friends-js');
+  friends.on('click', function()  {
+    window.location.href= 'search.html'
+  })
+  
+  var buttonOut =  $('.sign-out-js');
+	buttonOut.on('click', function () {
+		window.location.href = 'home.html';
+	
+  })
+
 });

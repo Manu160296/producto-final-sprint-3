@@ -140,7 +140,7 @@ function clear() {
 }
 */
 
-$(document).ready(function() {
+$(document).ready(function () {
   var email = $('#email');
   var password = $('#password');
   var confirmPassword = $('#confirm-password');
@@ -160,7 +160,7 @@ $(document).ready(function() {
     $('#register').attr('disabled', 'disabled');
   }
 
-  email.on('input', function(event) {
+  email.on('input', function (event) {
     // console.log(event.target.value);
     var REGEXEMAIL = /^[a-zA-Z0-9\._-]+@[a-zA-Z0-9-]{2,}[.][a-zA-Z]{2,3}$/;
     console.log(REGEXEMAIL.test($(this).val()));
@@ -174,7 +174,7 @@ $(document).ready(function() {
     }
   });
 
-  password.on('input', function() {
+  password.on('input', function () {
     console.log($(this).val());
     if ($(this).val().length >= 6) {
       validatePassword = true;
@@ -185,7 +185,7 @@ $(document).ready(function() {
     }
   });
 
-  confirmPassword.on('input', function() {
+  confirmPassword.on('input', function () {
     if ($(this).val() === password.val()) {
       confirm = true;
       activeButton();
@@ -195,7 +195,7 @@ $(document).ready(function() {
     }
   });
 
-  $('#register').on('click', function() {
+  $('#register').on('click', function () {
     event.preventDefault();
     localStorage.email = email.val();
     localStorage.password = password.val();
@@ -203,24 +203,24 @@ $(document).ready(function() {
 
   var start = $('.start-js');
   var emailUser = $('#user-email');
-  var passwordUser = $('#user-password') ;
-  var validateEmailUser = false ;
-  var validatePasswordUser = false ;
-  emailUser.on('input', function() {
+  var passwordUser = $('#user-password');
+  var validateEmailUser = false;
+  var validatePasswordUser = false;
+  emailUser.on('input', function () {
     if ($(this).val() === localStorage.email) {
       // alert('pasa');
       validateEmail = true;
     }
   });
 
-  passwordUser.on('input', function() {
+  passwordUser.on('input', function () {
     if ($(this).val() === localStorage.password) {
       // alert('esto tambien pasa');
       validatePassword = true;
     }
   });
 
-  start.on('click', function(event) {
+  start.on('click', function (event) {
     event.preventDefault();
     if (validateEmail && validatePassword) {
       $('#start-js').attr('disabled', false);
