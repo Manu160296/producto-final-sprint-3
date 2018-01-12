@@ -31,6 +31,12 @@ TEMATICA: SOCIAL
 2. Problemática: Debido a la falta de apoyo profesional cercano y de manera más certera, nos vemos con la necesidad de la creación de una red social, en la cual se pueda  brindar apoyo tanto profesional y no profesional, orientado  a todas aquellas personas que este pasando por ese momento crítico que implica usar la violencia. Ninguna mujer ni personas alguna, debe para por una situacion parecida, y de pasarlo, no debe sentir sola.
 Nuestra red social, contará con el apoyo de profesionales tales como: psicólogos, abogados, comunicadores sociales, etc,  orientando de manera profesional y/o emocional en el proceso de sanación post- agresión.
 
+## Estudio de mercado :
+Para esta fase decidimos aventurarnos y encuestar al público :) :
+![Con titulo](assets/images/encuesta.png)
+![Con titulo](assets/images/resultados-encuesta.png)
+
+
 ## Fase de diseño :
  Algo que nos tomó algo de tiempo fué la pagina de diseño ,debido a que los colores que estabamos pensando para el proyecto no parecían algo fácil de combinar , afortunadamente decidimos jugar con tonalidades fuertes y bajas de estos matices ; para ello utilizamos una herramienta de diseño que hizo que este proceso sea mucho más fácil , además de que nos ayudo a tener un app mejor estructurada ; a continuación citamos la página :
 *  https://material.io/color/#!/?view.left=0&view.right=0
