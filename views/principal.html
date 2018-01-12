@@ -171,13 +171,13 @@
       <div id="preview" class="thumbnail">
         <img class="img-img img-responsive" src="" />
       </div>
-      <a href="#" id="file-select" class="btn btn-default">Elegir archivo</a>
-      informacion del archivo
-      <span class="alert alert-info" id="file-info">No hay archivo aún</span>
+      <a href="#" id="file-select" class="hidden-xs hidden-sm hidden-md hidden-lg btn btn-default">Elegir archivo</a>
+      <!-- informacion del archivo -->
+      <span class="hidden-xs hidden-sm hidden-md hidden-lg alert alert-info" id="file-info">No hay archivo aún</span>
       <form id="file-submit" enctype="multipart/form-data">
         <input id="file" name="file" type="file" />
       </form>
-      <a href="#" class="btn btn-primary" id="file-save">Guardar</a>
+      <a href="#" class=" hidden-xs hidden-sm hidden-md hidden-lg btn btn-primary" id="file-save">Guardar</a>
     </div>
     <!--Mis imagenes  -->
 
@@ -273,6 +273,10 @@
     </p>
   </footer>
 
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
   <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
   <script src="../js/principal.js"></script>
 </body>
