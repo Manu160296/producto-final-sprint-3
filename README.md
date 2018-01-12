@@ -77,6 +77,6 @@ NECESIDADES A ENFOCAR:
 ***VISTA MI PAGINA PRINCIPAL**
 ![Con titulo](assets/images/vista_profile.png "titulo")
 
-##Agradecimientos Especiales :
+##  Agradecimientos Especiales :
 
 Queremos agradecer a Mariana Guerra (Psicóloga de Laboratoria y Jedi Master) por brindarnos orientación en el tema ;lo cual era algo sumamente importante para poder llegar al producto final. Muchas gracias Mariana :)
