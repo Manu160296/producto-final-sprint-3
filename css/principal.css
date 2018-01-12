@@ -1,0 +1,285 @@
+/* helpers */
+
+
+/* prueba.html */
+
+
+/* datos de la usuaria */
+
+body {
+    background-color: rgb(106, 0, 128);
+}
+
+.navbar {
+    background-color: rgb(156, 39, 176);
+}
+
+.navbar-header {
+    background-color: rgb(156, 39, 176);
+    padding: 8px;
+}
+
+.logo-up {
+    padding-top: 30px;
+}
+
+.img-fluid {
+    width: 60px;
+    height: 60px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    color: mediumorchid;
+}
+
+.text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: rgb(95, 10, 95);
+}
+
+main {
+    background-color: rgb(223, 187, 226);
+}
+
+.font {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+}
+
+.text-nav {
+  color:white; 
+}
+
+.text-name {
+    margin-bottom: 0;
+}
+
+.usuariax {
+    background-image: url();
+}
+
+.box-newperfil {
+    background-image: url(../assets/img/img1/bg_usuaria1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 10%;
+    border: 3px solid gray;
+    width: 100%;
+    height: 400px;
+}
+
+.newperfil {
+    background-color: rgb(156, 39, 176);
+    width: 70%;
+    height: auto;
+    padding-top: 10px;
+    border-radius: 50%;
+    border: 5px solid rgb(202, 144, 207);
+    /* margin: auto; */
+}
+
+.datos {
+    font-size: 3rem;
+}
+
+.button-match {
+    background: rgb(216, 17, 85);
+    font-size: 2rem;
+    border-radius: 10%;
+}
+
+.button-match:hover {
+    background: rgb(233, 38, 223);
+}
+
+
+/* estado para publicar */
+
+.button-msj0 {
+    background: rgb(216, 17, 85);
+    font-size: 2rem;
+    border-radius: 10%;
+    float: right;
+}
+
+.button-msj0:hover {
+    background: rgb(233, 38, 223);
+}
+
+.estadox {
+    outline: 1px solid blueviolet;
+    height: 200px;
+}
+
+.form-control {
+    background-color: rgb(202, 144, 207);
+}
+
+.new-feel {
+    font-size: 2rem;
+    font-weight: bold;
+    border: rgb(163, 142, 157);
+    border-radius: 10%;
+}
+
+
+/* imagenes */
+
+#preview {
+    width: 100%;
+    height: 100px;
+}
+
+.img-img {
+    width: 90%;
+    height: 100px;
+}
+
+
+/* seccion de seguidos */
+
+.seguidos {
+    max-width: 100%;
+    height: 300px;
+    outline: 1px solid black;
+}
+
+
+/* seccion de noticias */
+
+.noticias {
+    max-width: 100%;
+    height: auto;
+    float: right;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 5px;
+}
+
+.box-noticias {
+    background-color: rgb(238, 218, 218);
+    width: 100%;
+    height: auto;
+    float: right;
+    padding-top: 15px;
+}
+
+.img-noticias {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    border-radius: 5%;
+    padding-bottom: 10px;
+}
+
+.title-noticias {
+    width: 100%;
+    font-weight: bold;
+}
+
+.text-noticias {
+    width: 90%;
+    height: auto;
+    text-align: center;
+    text-align: justify;
+}
+
+.noticias-left {
+    width: 48%;
+    height: auto;
+    float: left;
+}
+
+.noticias-rigth {
+    width: 50%;
+    height: auto;
+    float: right;
+}
+
+
+/* Eventos */
+
+.box-event {
+    width: 100%;
+    height: auto;
+}
+
+.title-event0 {
+    font-size: 2rem;
+    color: rgb(224, 45, 13);
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.title-event1 {
+    font-size: 2rem;
+    color: orange;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.img-event {
+    width: 120px;
+    height: 120px;
+    padding-bottom: 0;
+}
+
+.button-event {
+    background: rgb(233, 38, 223);
+}
+
+.button-event:hover {
+    background: rgb(216, 17, 85);
+}
+
+.button-event1 {
+    font-size: 16px;
+}
+
+.icon-event {
+    color: rgb(233, 38, 223);
+}
+
+.text-event {
+    font-size: 15px;
+}
+
+
+/* footer */
+
+footer {
+    background-color: rgb(112, 21, 109);
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.footer {
+    list-style: none;
+    color: #f3afaf;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    padding-left: 7px;
+    padding-top: 3px;
+    letter-spacing: 20px;
+    margin: 15px 15px 15px 0;
+}
+
+.box-footer {
+    padding: 10px;
+}
+
+.text-footer {
+    font-size: 16px;
+    color: #f3afaf;
+    padding-bottom: 5px;
+}

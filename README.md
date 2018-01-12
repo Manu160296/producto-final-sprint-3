@@ -1,9 +1,3 @@
-# Red Social
-* **Track:** _Common Core_
-* **Curso:** _Crea tu propia red social_
-* **Unidad:** _5. CREA TU PROPIA RED SOCIAL_
-***
-
 # PRODUCTO FINAL SPRINT 3 :
 
 ## ESPECIFICACIONES DE RETO :
