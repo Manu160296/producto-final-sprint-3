@@ -4,7 +4,8 @@ $(document).ready(function() {
   $('.occupation-js').text('Ocupación : ' + localStorage.occupation);
   $('.cellphone-js').text('Celular : ' + localStorage.cellphone);
 
-  $('.contacts-js').on('click', function() {
-    window.location.href = 'contacts.html';
+  $('.contacts-js').on('click', function(event) {
+    event.preventDefault();
+    window.location.href = 'contacs.html';
   });
 });
