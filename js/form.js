@@ -1,60 +1,48 @@
 $(document).ready(function() {
-  var name = $('.name-form-js');
+  $('select').material_select();
   var occupation = $('.occupation-form-js');
+  var nickname = $('.nickname-js');
   var cellphone = $('.cellphone-js');
   var checkbox = $('.checkbox-js');
-  var select = $('.select-js');
 
-  console.log(name);
-  console.log(occupation);
+  //  $('.start-js').removeClass('disabled');
+
+  console.log(nickname);
   console.log(cellphone);
   console.log(checkbox);
-  console.log(select);
+  console.log(occupation);
 
   // variables verificadoras booleanas :
-  var verifyName = false;
+
+  var verifyNickname = false;
   var verifyOccupation = false;
   var verifyCellphone = false;
   var verifyCheck = false;
-  var verifySelect = false;
-
-  // variables para localStorage:
-  var tempName, tempOccupation, tempCellphone, tempSelect, tempEmail;
 
   // funciones que activan y descativan el boton submit :
   function activeButton() {
-    if (verifyName && verifyOccupation && verifyCellphone && verifyCheck && verifySelect) {
-      $('.start-js').attr('disabled', false);
+    if (verifyNickname && verifyOccupation && verifyCellphone && verifyCheck) {
+      $('.start-button-js').removeClass('disabled');
     }
   }
 
   function desactiveButton() {
-    $('.start-js').attr('disabled', 'disabled');
+    // $('.start-js').attr('disabled', 'disabled');
+    $('.start-button-js').addClass('disabled');
   }
 
   // agregando eventos :
-  select.on('change', function() {
-    if (select.val() === 'orientador' || select.val() === 'participante') {
-      localStorage.ranking = select.val();
-      verifySelect = true;
-      activeButton();
-      console.log('al fiinnn');
-    } else {
-      verifySelect = false;
-      desactiveButton();
-    }
-  });
 
-
-  name.on('input', function(event) {
+  nickname.on('input', function(event) {
     console.log($(this).val());
     if ($(this).val().length <= 15) {
-      localStorage.name = $(this).val();
+      localStorage.nickname = $(this).val();
       console.log('intento');
-      verifyName = true;
+      verifyNickname = true;
       activeButton();
     } else {
-      verifyName = false;
+      verifyNickname = false;
+      console.log('pasa numero de caracteres permitidos');
       desactiveButton();
     }
   });
@@ -65,6 +53,7 @@ $(document).ready(function() {
     console.log(patternOccupation.test($(this).val()));
     if (patternOccupation.test($(this).val())) {
       localStorage.occupation = $(this).val();
+      console.log($(this).val());
       verifyOccupation = true;
       activeButton();
     } else {
@@ -95,7 +84,11 @@ $(document).ready(function() {
       desactiveButton();
     }
   });
-  $('.start-js').on('click', function() {
-    window.location.href = 'profile.html';
+
+
+  $('.start-button-js').on('click', function(event) {
+    event.preventDefault();
+    console.log('falta el redireccionamiento!!!');
+    window.location.href = 'home.html';
   });
 });

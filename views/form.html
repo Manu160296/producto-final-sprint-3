@@ -14,40 +14,36 @@
 </head>
 
 <body>
-	<div class="container bg-form padding-20vh ">
+	<div class="container bg-form  ">
 
 
 		<div class="row ">
-			<h3 class="center-align">Completa tus datos</h3>
+			<h3 class="center-align margin-top-0">Completa tus datos</h3>
 			<div class="col s10 offset-s1 m6 offset-m3">
 				<div class="row">
 					<form class="col s12 bg-white border-radius-10">
 						<div class="row">
 							<div class="input-field col s12">
-								<input placeholder="Nickname" id="first_name" type="text" class="validate">
+								<input placeholder="Nickname" id="first_name" type="text" class="validate nickname-js">
 							</div>
 						</div>
 						<div class="row">
 							<div class="input-field col s12">
-								<input type="text" class="validate" placeholder="Celular">
+								<input type="number" class="validate cellphone-js" placeholder="Celular">
 							</div>
 						</div>
 						<div class="row">
-							<div class="input-field col s12 ">
-								<select>
-									<option value="" disabled selected>Choose your option</option>
-									<option value="orientador">Orientador</option>
-									<option value="observador">Observador</option>
-								</select>
+							<div class="input-field col s12">
+								<input type="text" class="validate occupation-form-js" placeholder="Ocupación">
 							</div>
 						</div>
 						<p>
-							<input type="checkbox" class="filled-in" id="filled-in-box" checked="checked" />
+							<input type="checkbox" class="filled-in checkbox-js" id="filled-in-box" checked="checked" />
 							<label for="filled-in-box"> <span class="text-red">Es importante recalcar que los contenidos compartidos en este espacio pueden ser de caracter sensible por
 									lo que cualquier acto que genere algun tipo de agresión será penalizado</span> </label>
 						</p>
-						<a class="waves-effect waves-light btn margin-bottom-10">
-							<i class="material-icons right">cloud</i>button</a>
+						<button class="waves-effect waves-light btn margin-bottom-10 start-button-js disabled" type="button" >
+							<i class="material-icons right ">chevron_right</i>Continuar</button>
 
 					</form>
 
